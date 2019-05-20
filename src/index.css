@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.main-bg{
+  background-image: linear-gradient(to right, rgba(255, 5, 38, 0.849), rgba(241, 26, 116, 0.658),rgba(224, 155, 198, 0.993));
+  height:100vh;
+  width: 100%;
+  
+}
+.app-bg{
+  padding-top:100px 
+}
+.title-bg{
+  background-image: url(./scenery_illustration.png);
+  border-radius: 7px;
+  height:600px
+}
+
+input{
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-bottom: solid 1px;
+  background-color:transparent;
+
+}
+::-webkit-input-placeholder {
+  color:aliceblue;
+  font-size: 20px;
+  opacity: 1;
+}
+button{
+  height: 50px;
+  border: none;
+  border-radius: 7px!important;
+  width: 130px;
+  background-color: rgba(230, 67, 67, 0.822);
+  color: aliceblue
+  
+  
+}
+.btn-get{
+  margin-top:30px; 
+}
+
+.inp-get{
+  margin-right:10px; 
+}
+
+.show-info{
+  margin-top:80px;
+  color:wheat;
+}
